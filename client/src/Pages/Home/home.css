@@ -1,0 +1,33 @@
+.header_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 20px 30px;
+}
+.blue_button {
+  background-color: #516cf0;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 0px 70px;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+}
+.search_bar {
+  border-color: var(--theme-topbar-search-border);
+  background-color: var(--theme-topbar-search-background);
+  box-shadow: var(--theme-topbar-search-shadow);
+  color: var(--theme-topbar-search-color);
+  display: block;
+  line-height: var(--lh-sm);
+  width: 458px;
+}
+
+.search_bar {
+  border: 1px solid;
+  padding: 10px 6px;
+  margin-top: 7px;
+  border-radius: 5px;
+  padding-left: 15px;
+}
